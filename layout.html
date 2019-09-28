@@ -1,50 +1,41 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>
-		filipe aula 23-08-19
-		</title>
-		<style type="text/css">
-		a:link, a:visited {background-color:red;
-		color: black;
-		padding: 14px 25px;
-		text-align: center;
-		text-decoration: none;
-		display: inline-block;}
-		a:hover, a:active {color: white; background-color: red;}
-		ul{list-style-type: square;}
-		table {border: 2 solid;border-width: 100%;width: 100%}
-		</style>
-	</head>
-	<body text="#0" link="#00000" alink="#0" vlink="#0">
-		<table border="" width="">
-			<tr background="imagens/sangue.jpg">
-				<center>
-				<td colspan="10" height="80"></td>
-			</tr>
-			<tr background="imagens/sangue.jpg">
-				<td width="90" width="78"><h2><a href target="iframe"><font color="0"p style="color:white;">pagina principal</font></a>
-				<ul>
-					<h4><li><a href="filipe1.html" target="conteudo">imagem2</a>
-					<li><a href="filipe.html" target="conteudo">imagem1</a>
-					<li><a href="filipe2.html" target="conteudo">imagem3</a>
-					<li><a href="filipe3.html" target="conteudo">imagem4</a>
-					<li><a href="filipe4.html" target="conteudo">imagem5</a>
-					<li><a href="filipe5.html" target="conteudo">imagem6</a>
-					<li><a href="filipe6.html" target="conteudo">imagem7</a>
-					<li><a href="filipe7.html" target="conteudo">imagem8</a>
-					<li><a href="filipe8.html" target="conteudo">imagem9</a>
-					<li><a href="filipe9.html" target="conteudo">imagem10</a>
-				</td>
-				<td height="500" height="200">meus animes
-					<iframe src="trabalho.html" width="100%" height="700" iframe name="conteudo"></iframe>
-					</center>
-				</ul>
-			</td>
-			<tr background="imagens/sangue.jpg">
-				<td colspan="10" height="100">Rodapé</td>
-			</tr>
-		</tr>
+<head>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<style>
+.iframe {
+   width:550px; height: 550px;
+}
+.cabeçalho{
+	width:80px; height:80px;
+}
+.rodape{
+	width:80px; height:80px;
+}
+.listas{
+	width:20px; height:20px;
+}
+</style>
+
+	<title>	
+			</title>
+</head>
+
+<body>
+
+		<table width="100%" height="100px" border="1px solid-black;">
+		<tr><td><div class="cabeçalho"></div></td></tr>
+		<td><div class="listas"></div> <a href target="home">Home</a>
+			<a href target="produtos">Produtos</a></td>
+		<tr><td> <div class= "iframe">
+		<iframe src="produtos/acessorios/acessorios.html" width="255%" height="100%" iframe name="acessorios"></iframe>
+		 <iframe src="index.html" width="255%" height="100%" iframe name="home"></iframe>
+		</div>
+		</td>
+		'</tr>
+		<tr><td> <div class= "rodape"></div></td></tr>
+
+		
 	</table>
-</body>
+	</body>
 </html>
