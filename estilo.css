@@ -1,0 +1,4 @@
+body{
+    background-color:yellow;background-image: url(patinhas.jpg);width:105%;
+    height: 205%;background-repeat: repeat-x;background-attachment: scroll;
+}
