@@ -2,3 +2,5 @@ body{
     background-image: url(patinhas.jpg);width:105%;
     height: 205%;background-repeat: repeat-x;background-attachment: scroll;
 }
+button{float: left; border:1px solid; padding: 11px 21px; vertical-align: middle; background:#2D888F; color:white;border-radius:6px;
+	align-self: center;font-size: 15pt;font-family:helvetica serif; text-decoration:none;}
