@@ -1,6 +1,21 @@
-body{
-    background-image: url(patinhas.jpg);width:105%;
-    height: 205%;background-repeat: repeat-x;background-attachment: scroll;
+
+
+body {
+		background-image: url(grama.jfif);
+		color: black;background-repeat: repeat-x;
+
 }
-button{float: left; border:1px solid; padding: 11px 21px; vertical-align: middle; background:#2D888F; color:white;border-radius:6px;
+a{
+color: black;vertical-align: middle;background: green;border-radius: 6px;font-size: 15px;
+font-family:helvetica,serif;text-decoration:none;padding: 11px 21px;border:1px solid;float:left;
+margin: 10px;
+}
+
+button{float: left; border:1px solid; padding: 11px 21px; vertical-align: middle; background:#2D888F; color:black;border-radius:6px;
 	align-self: center;font-size: 15pt;font-family:helvetica serif; text-decoration:none;}
+	/*aqui entra os codigos de formatação do menu */
+a:hover	{background-color: greenyellow;
+	transition:background-color 1.5s;
+	
+
+}
