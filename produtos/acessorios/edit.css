@@ -1,4 +1,22 @@
+
+
+
 body{
-    background-image: url(patinhas.jpg);width: 200	px;
-    height: 330px;background-repeat: repeat-x;background-attachment: scroll;
+        background-image: url("patinhas.jpg");width: 200pt;height: 300pt;background-repeat: repeat-x;
+        background-color: ;
+        color: black;
+      }
+table{
+
+width: 100%;height: 30px
+
+}
+figure.imagens-acessorios {
+
+	border: 0px solid green;box-shadow: 3px 3px 4px black;
+}
+figure.imagens-acessorios img{
+	width: 100%
+	height:100%
+
 }
