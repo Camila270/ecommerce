@@ -1,3 +1,4 @@
+
 body {
 background-image: url(grama.jfif);
 color: black;background-repeat: repeat-x;
@@ -17,4 +18,33 @@ transition:background-color 1.5s;
 /*formatação de interface*/
 div#interface{
 width: 890px;
+}
+/*formatação dos contatos*/
+nav#contatos 		form{margin:0 auto;
+width: 400px;
+padding:1em;
+border:1px solid #CCC;}
+
+form div+div{margin-top: 1em;}
+
+label{display: inline-block;
+    width: 80px;
+    text-align: right;}
+
+ input, textarea{    font: 1em sans-serif;
+ 	width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	 border: 1px solid #999;
+}
+
+input:focus, textarea:focus {    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+
+    height: 15em;
+
+    resize: vertical;
 }
