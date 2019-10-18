@@ -56,3 +56,36 @@ margin: auto auto auto 100px;
 border: 1px solid yellowgreen;
 margin: 
 }
+
+form#contato
+{margin: 100px 30px;
+width: 400px;
+padding:1em;
+border:0px solid #CCC;
+}
+
+form div+div{margin-top: 1em;}
+
+label{display: inline-block;
+    width: 90px;
+    text-align: right;}
+
+ input, textarea{    font: 1em sans-serif;
+ 	width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	 border: 1px solid #999;
+}
+
+input:focus, textarea:focus {    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 15em;
+    resize: vertical;
+}
+
+h1#contato1{
+	margin: 60px 0px 0px 0px;
+}
