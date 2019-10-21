@@ -57,6 +57,7 @@ border: 1px solid yellowgreen;
 margin: 
 }
 
+/*para o formulário de contatos*/
 form#contato
 {margin: 100px 30px;
 width: 400px;
@@ -89,3 +90,4 @@ textarea {
 h1#contato1{
 	margin: 60px 0px 0px 0px;
 }
+
