@@ -13,6 +13,35 @@ section#corpo {
 display: block;
 width: 400px;
 height: 300px;
-float: left;
+float: left;}
+div#farmacia{
+	margin: 80px 60px auto 60px;
+
+}
+nav#menu  li{
+			display:block;
+			float: left;
+			list-style:none;
+			text-transform: uppercase;
+			padding: 5px;
+			margin: 0px 20px auto auto	;}
+
+		nav#menu ol, ul {
+			padding:0px;
+			margin: 0px;
+		}
+		nav#menu ul{
+			display:none;
+		}
+		nav#menu ol li:hover > ul{
+			display: block;
+		}
+		nav#menu ul{
+			vertical-align: 10px;
+					}
+		nav#menu a {
+			color: #000000;
+			text-decoration: none;
+		}
 
 
