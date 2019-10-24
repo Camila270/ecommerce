@@ -23,6 +23,7 @@ nav#menu  li{
 			float: left;
 			list-style:none;
 			text-transform: uppercase;
+			background-color:#2D888F;
 			padding: 5px;
 			margin: 0px 20px auto auto	;}
 

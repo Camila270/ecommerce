@@ -51,7 +51,7 @@ margin: auto auto auto 100px;
 border: 1px solid yellowgreen;
 margin:
 }
-body img#wathss{
+body img#whats{
 margin: auto auto auto 100px;
 border: 1px solid yellowgreen;
 margin: 
@@ -63,7 +63,11 @@ form#contato
 width: 400px;
 padding:1em;
 border:0px solid #CCC;
-}
+position: relative;
+width: 200px;
+height: 200px;
+float: left;
+align-content:left;}
 
 form div+div{margin-top: 1em;}
 
@@ -71,7 +75,7 @@ label{display: inline-block;
     width: 90px;
     text-align: right;}
 
- input, textarea{    font: 1em sans-serif;
+ input, textarea{font: 1em sans-serif;
  	width: 300px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -89,5 +93,18 @@ textarea {
 
 h1#contato1{
 	margin: 60px 0px 0px 0px;
+}
+
+.formin fieldset label span{position:relative; top:5px; margin-left:2px;}
+div#contato3{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: right;
+    align-content:right;
+    margin: 110px 0px;
+    width: 400px;
+    padding:15px;
+
 }
 
