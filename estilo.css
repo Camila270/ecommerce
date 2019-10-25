@@ -49,17 +49,17 @@ footer#rodape{
 body img#face{
 margin: auto auto auto 100px;
 border: 1px solid yellowgreen;
-margin: 
+margin: 0px 0px 0px 105px
 }
 body img#instagram{
 margin: auto auto auto 100px;
 border: 1px solid yellowgreen;
 margin:
 }
-body img#whats{
+body img#whatsapp{
 margin: auto auto auto 100px;
 border: 1px solid yellowgreen;
-margin: 
+margin: 0px 0px 0px 130px
 }
 
 /*para o formulário de contatos*/
@@ -119,6 +119,12 @@ div#contato3{
 nav#menu{
      margin: 0px 0px 0px -190px;
 }
+a#botaoretornar {
 
+    margin: 390px 0px 0px 359px
+}
+h4{
+    text-transform:uppercase;
+}
 
 
