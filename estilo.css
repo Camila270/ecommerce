@@ -1,6 +1,7 @@
 body {
-background-image: url(grama.jfif);
-color: black;background-repeat: repeat-x;
+background-image: url(logo1.png);
+color: black;background-repeat: no-repeat;
+background-color: white;
 }
 a{
 color: black;vertical-align: middle;background: green;border-radius: 6px;font-size: 15px;
@@ -125,6 +126,12 @@ a#botaoretornar {
 }
 h4{
     text-transform:uppercase;
+}
+div#container
+{width:200px;
+height: 200px;
+
+
 }
 
 
